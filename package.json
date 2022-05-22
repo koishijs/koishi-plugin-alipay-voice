@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-alipay-voice",
-  "description": "Send Alipay voice message",
-  "version": "1.0.0",
+  "description": "Send Alipay Voice Message",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -28,6 +28,12 @@
     "alipay",
     "voice"
   ],
+  "koishi": {
+    "description": {
+      "en": "Send Alipay Voice Message",
+      "zh": "发送支付宝到账语音消息"
+    }
+  },
   "peerDependencies": {
     "koishi": "^4.7.1"
   }
